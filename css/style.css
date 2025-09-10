@@ -37,12 +37,6 @@
             text-align: center;
         }
 
-        main img {
-            max-width: 400px;
-            width: 100%;
-            margin-top: 15px;
-            border-radius: 10px;
-        }
 
         footer {
             background-color: #222;
