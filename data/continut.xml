@@ -1,44 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="ro">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Untila Stefan" />
-    <meta name="keywords" content="Nikacad, IT, cursuri, programare" />
-    <title>Platforma de învățare IT - Nikacad</title>
-    <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
+<platforma nume="Nikacad" limba="ro" autor="Untila Stefan" an="2025">
+    <meta>
+        <keywords>Nikacad, IT, cursuri, programare</keywords>
+    </meta>
+
     <header>
-        <h1>Nikacad</h1>
-        <nav>
-            <a href="#">Acasă</a>
-            <a href="#">Cursuri</a>
-            <a href="#">Despre noi</a>
-            <a href="#">Contact</a>
-        </nav>
+        <titlu>Nikacad</titlu>
+        <navigare>
+            <link pagina="acasa">Acasă</link>
+            <link pagina="cursuri">Cursuri</link>
+            <link pagina="despre">Despre noi</link>
+            <link pagina="contact">Contact</link>
+        </navigare>
     </header>
-    <main>
-        <h2>Bine ai venit pe platforma Nikacad!</h2>
-        <p>
-            Aici vei găsi resurse utile pentru a învăța programare, dezvoltare web și alte domenii IT. 
-            Cursurile sunt structurate pentru începători și avansați, cu exemple practice și explicații clare.
-        </p>
-        <img src="assets/img/360_F_1580630303_51KyzBRDi7IZ3iNlKZWAt9Ns31UODCel.webp" alt="Ilustrație IT" />
-        <pre>
-            <b>#    #     #     ####    <sub>####</sub>   ######  #####</b>
-            <i>##   #     #    #    #  #    #  #       #    #</i>
-            <strong># #  #     #    #       #       <ins>#####</ins>   #    #</strong>
-            <em>#  # #     #    #  <del>###</del>  #  ###  #       #####</em>
-            <small>#   ##     #    #    #  #    #  #       #   #</small>
-            <mark><u>#    #     #     <sup>####</sup>    ####   ######  #    #</u></mark>
-        </pre>
-    </main>
+
+    <continut>
+        <sectiune titlu="Bine ai venit pe platforma Nikacad!">
+            <paragraf>
+                Aici vei găsi resurse utile pentru a învăța programare, dezvoltare web și alte domenii IT. 
+                Cursurile sunt structurate pentru începători și avansați, cu exemple practice și explicații clare.
+            </paragraf>
+            <imagine src="assets/img/360_F_1580630303_51KyzBRDi7IZ3iNlKZWAt9Ns31UODCel.webp" descriere="Ilustrație IT" />
+            <ascii_art>
+                #    #     #     ####    ####   ######  #####  
+                ##   #     #    #    #  #    #  #       #    #  
+                # #  #     #    #       #       #####   #    #  
+                #  # #     #    #  ###  #  ###  #       #####  
+                #   ##     #    #    #  #    #  #       #   #  
+                #    #     #     ####    ####   ######  #    #
+            </ascii_art>
+        </sectiune>
+    </continut>
+
     <footer>
-        &copy; 2025 Nikacad. Toate drepturile rezervate.
+        copy 2025 Nikacad. Toate drepturile rezervate.
     </footer>
-</body>
-</html>
+</platforma>
