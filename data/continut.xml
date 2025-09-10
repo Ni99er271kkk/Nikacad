@@ -1,12 +1,15 @@
-<!DOCTYPE html>
-<html lang="ro">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ro">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Untila Stefan">
-    <meta name="keywords" content="Nikacad, IT, cursuri, programare">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Untila Stefan" />
+    <meta name="keywords" content="Nikacad, IT, cursuri, programare" />
     <title>Platforma de învățare IT - Nikacad</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
     <header>
@@ -24,7 +27,7 @@
             Aici vei găsi resurse utile pentru a învăța programare, dezvoltare web și alte domenii IT. 
             Cursurile sunt structurate pentru începători și avansați, cu exemple practice și explicații clare.
         </p>
-        <img src="assets/img/360_F_1580630303_51KyzBRDi7IZ3iNlKZWAt9Ns31UODCel.webp" alt="Ilustrație IT">
+        <img src="assets/img/360_F_1580630303_51KyzBRDi7IZ3iNlKZWAt9Ns31UODCel.webp" alt="Ilustrație IT" />
         <pre>
             <b>#    #     #     ####    <sub>####</sub>   ######  #####</b>
             <i>##   #     #    #    #  #    #  #       #    #</i>
@@ -32,7 +35,6 @@
             <em>#  # #     #    #  <del>###</del>  #  ###  #       #####</em>
             <small>#   ##     #    #    #  #    #  #       #   #</small>
             <mark><u>#    #     #     <sup>####</sup>    ####   ######  #    #</u></mark>
-
         </pre>
     </main>
     <footer>
