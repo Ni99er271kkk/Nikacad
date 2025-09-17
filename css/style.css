@@ -45,3 +45,28 @@
             padding: 10px;
             margin-top: 20px;
         }
+
+        .no-style-list {
+            list-style-type: none; 
+            margin: 0;             
+            padding: 0;            
+            display: flex;
+        }
+
+        .ordered-list {
+            text-align: left;
+        }
+
+        .images {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .images img {
+            width: 300px;
+            height: inherit;
+        }
+
+        .images ul {
+            list-style: none;
+        }
