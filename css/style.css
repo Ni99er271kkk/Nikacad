@@ -2,6 +2,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: aliceblue;
         }
 
         header {
@@ -55,6 +56,11 @@
 
         .ordered-list {
             text-align: left;
+            font-size: 30px;
+            font-weight: 100;
+            background-image: url(https://i1.sndcdn.com/avatars-zaCUjzWzmpQ5cqzn-4EqdxQ-t1080x1080.jpg);
+            width: 500px;
+            height: 300px;
         }
 
         .images {
@@ -79,3 +85,5 @@
             display: flex;
             justify-content: space-around;
         }
+
+        
